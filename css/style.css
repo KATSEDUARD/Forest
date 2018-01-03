@@ -136,3 +136,46 @@
         right: 130px;
     }
 }
+
+@media only screen and (width: 600px){
+    .button-collapse{
+        position: absolute;
+        left: -30px;
+    }
+}
+
+@media only screen and (width: 384px){
+    .button-collapse{
+        position: absolute;
+        left: -20px;
+    }
+}
+
+@media only screen and (width: 480px){
+    .button-collapse{
+        position: absolute;
+        left: -20px;
+    }
+}
+
+@media only screen and (width: 412px){
+    .button-collapse{
+        position: absolute;
+        left: -20px;
+    }
+}
+
+@media only screen and (width: 375px){
+    .button-collapse{
+        position: absolute;
+        left: -20px;
+    }
+}
+
+@media only screen and (width: 414px){
+    .button-collapse{
+        position: absolute;
+        left: -20px;
+    }
+}
+

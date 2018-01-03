@@ -112,3 +112,27 @@
         left: -20px;
     }
 }
+
+@media only screen and (width: 1440px){
+    .navbar-wrapper .brand-logo{
+        position: absolute;
+        left: 175px;
+    }
+
+    .navbar-wrapper #nav-mobile{
+        position: absolute;
+        right: 165px;
+    }
+}
+
+@media only screen and (width: 1366px){
+    .navbar-wrapper .brand-logo{
+        position: absolute;
+        left: 135px;
+    }
+
+    .navbar-wrapper #nav-mobile{
+        position: absolute;
+        right: 130px;
+    }
+}

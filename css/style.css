@@ -1,0 +1,107 @@
+.parallax-container h5{
+    color: white;
+    position: absolute;
+    top: 50%;
+    margin-top: -38px;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.white-selection p{
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.wrapper h1{
+    font-weight: 300;
+}
+
+.wrapper div i{
+    font-size: 50px;
+    color: #795548;
+}
+
+.wrapper div p{
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+}
+
+.navbar-wrapper .brand-logo, .page-footer h5{
+    font-weight: 30;
+}
+
+#top{
+    opacity: 0;
+    transition: all ease 0.3s;
+}
+
+#top:hover{
+    transition: all ease 0.3s;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (width: 768px){
+    h5{
+        font-size: 25px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .parallax-container h5{
+        font-size: 25px;
+    }
+
+    .button-collapse{
+        position: absolute;
+        left: -60px;
+    }
+}
+
+@media only screen and (width: 1024px){
+    .navbar-wrapper .brand-logo{
+        position: absolute;
+        left: 60px;
+    }
+
+    .navbar-wrapper #nav-mobile{
+        position: absolute;
+        right: 45px;
+    }
+}

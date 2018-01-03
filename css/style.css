@@ -90,18 +90,25 @@
 
     .button-collapse{
         position: absolute;
-        left: -60px;
+        left: -50px;
     }
 }
 
 @media only screen and (width: 1024px){
     .navbar-wrapper .brand-logo{
         position: absolute;
-        left: 60px;
+        left: 35px;
     }
 
     .navbar-wrapper #nav-mobile{
         position: absolute;
-        right: 45px;
+        right: 30px;
+    }
+}
+
+@media only screen and (width: 320px){
+    .button-collapse{
+        position: absolute;
+        left: -20px;
     }
 }

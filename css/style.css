@@ -74,7 +74,6 @@
 
 
 
-
 @media only screen and (width: 768px){
     h5{
         font-size: 25px;
@@ -111,6 +110,23 @@
         position: absolute;
         left: -20px;
     }
+
+    .parallax-container h5{
+        font-size: 25px;
+    }
+
+    .white-selection p{
+        font-size: 17px;
+    }
+
+    .white-selection h1{
+        font-size: 45px;
+        font-weight: 300;
+    }
+
+    .wrapper p{
+        font-size: 10px;
+    }
 }
 
 @media only screen and (width: 1440px){
@@ -122,6 +138,12 @@
     .navbar-wrapper #nav-mobile{
         position: absolute;
         right: 165px;
+    }
+}
+
+@media only screen and (width: 425px){
+    .parallax-container h5{
+        font-size: 25px;
     }
 }
 
@@ -149,6 +171,10 @@
         position: absolute;
         left: -20px;
     }
+
+    .parallax-container h5{
+        font-size: 25px;
+    }
 }
 
 @media only screen and (width: 480px){
@@ -163,6 +189,10 @@
         position: absolute;
         left: -20px;
     }
+
+    .parallax-container h5{
+        font-size: 25px;
+    }
 }
 
 @media only screen and (width: 375px){
@@ -170,12 +200,20 @@
         position: absolute;
         left: -20px;
     }
+
+    .parallax-container h5{
+        font-size: 25px;
+    }
 }
 
 @media only screen and (width: 414px){
     .button-collapse{
         position: absolute;
         left: -20px;
+    }
+
+    .parallax-container h5{
+        font-size: 25px;
     }
 }
 
